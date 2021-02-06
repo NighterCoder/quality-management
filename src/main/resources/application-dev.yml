@@ -1,0 +1,16 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: dps
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/dps
+    username: root
+    password:
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+
