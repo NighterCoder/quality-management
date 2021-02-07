@@ -2,7 +2,10 @@ package com.dps.utils;
 
 public enum Status {
 
-    OK(Integer.valueOf(0),"成功");
+    OK(Integer.valueOf(0), "成功"),
+    METADATA_CONN_FAIL(Integer.valueOf(1), "数据库连接失败")
+    ;
+
 
     private final Integer code;
     private final String msg;
